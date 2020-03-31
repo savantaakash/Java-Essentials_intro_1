@@ -1,0 +1,26 @@
+package com.aakash.arrays;
+import java.util.*;
+
+1)
+public class Arraylists {
+
+	public static void main(String[] args) {
+		ArrayList airlines = new ArrayList();
+		System.out.println("Array List airline initial size :"+airlines.size());
+		airlines.add("Thomas");
+		airlines.add("Joey");
+		airlines.add("Sarah");
+		airlines.add("Fredrie");
+		airlines.add("Aaron");
+		
+		System.out.println("Array List airline initial size :"+airlines.size());
+		System.out.println("Array List airline initial size :"+airlines);
+	
+		System.out.println("first airline initial size :"+airlines.get(0));
+	System.out.println("last  airline is:"+airlines.get(5));
+	
+	airlines.remove(3);
+	System.out.println("last airline "+airlines);
+	}
+
+}
